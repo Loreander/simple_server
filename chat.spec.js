@@ -113,7 +113,7 @@ describe('Message', () => {
       expect(json).toContain('"body":"My dog has fleas."');
     });
     it('contains a when field', () => {
-      expect(json).toContain('"when":"2000-11-01T16:03:04.000Z"');
+      expect(json).toContain('"when":"2000-11-01T15:03:04.000Z"');
     });
 
   })
